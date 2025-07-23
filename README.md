@@ -80,3 +80,19 @@ The `json-server` provides the following RESTful API endpoints based on the `db.
 * `POST /cards` - Creates a new card.
 * `PUT /cards/:id` - Updates an existing card.
 * `DELETE /cards/:id` - Deletes a card.
+
+
+## 📸 Application Screenshots
+
+### 🖼️ Main UI View
+![Main UI](https://i.ibb.co/b5ppHHS1/Screenshot-62.png)
+
+### 🖊️ Editing a Card
+![Edit Modal](https://i.ibb.co/5hPQjzKD/Screenshot-63.png)
+
+### 📋 Dashboard After an Edit
+[![Dashboard after edit](https://i.ibb.co/j9QjjMDC/Screenshot-64.png)](https://i.ibb.co/j9QjjMDC/Screenshot-64.png)
+
+### 🗑️ View of the Dashboard After Delete
+[![Dashboard after delete](https://i.ibb.co/W43174Zt/Screenshot-65.png)](https://i.ibb.co/W43174Zt/Screenshot-65.png)
+
