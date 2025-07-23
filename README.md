@@ -84,6 +84,8 @@ The `json-server` provides the following RESTful API endpoints based on the `db.
 
 ## 📸 Application Screenshots
 
+### 🖥️ Desktop View
+
 ### 🖼️ Main UI View
 ![Main UI](https://i.ibb.co/b5ppHHS1/Screenshot-62.png)
 
@@ -95,4 +97,14 @@ The `json-server` provides the following RESTful API endpoints based on the `db.
 
 ### 🗑️ View of the Dashboard After Delete
 [![Dashboard after delete](https://i.ibb.co/W43174Zt/Screenshot-65.png)](https://i.ibb.co/W43174Zt/Screenshot-65.png)
+
+---
+
+## 📱 Mobile View
+
+### 🖼️ Main UI View (Mobile)
+![Mobile Main UI](https://i.ibb.co/RLwmkYT/Screenshot-2025-07-24-025131.png)
+
+### 🖊️ Editing a Card (Mobile)
+![Mobile Edit Modal](https://i.ibb.co/1G3WJC4K/Screenshot-2025-07-24-025146.png)
 
