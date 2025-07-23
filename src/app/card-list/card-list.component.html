@@ -1,0 +1,52 @@
+<div class="header-container">
+  <div class="header-content">
+    <img src="https://i.ibb.co/n8QqpKQw/icon-logo2.png" alt="Logo" class="header-icon" />
+    <h1>Dynamic Card Manager</h1>
+  </div>
+  <button mat-fab extended color="primary" (click)="addNewCard()">
+    <mat-icon>add</mat-icon>
+    Add New Card
+  </button>
+</div>
+
+<div class="card-grid-container">
+  <!-- Use ng-container for conditional logic without adding an extra element -->
+  <ng-container *ngIf="cards$ | async as cards; else loading">
+    <div *ngIf="cards.length > 0; else emptyState" class="card-grid">
+      <mat-card *ngFor="let card of cards" class="card-item">
+        <mat-card-header>
+          <mat-card-title>{{ card.title }}</mat-card-title>
+          <!-- The card subtitle with the ID has been removed -->
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{ card.description }}</p>
+        </mat-card-content>
+        <mat-card-actions align="end" class="card-actions">
+          <button mat-icon-button color="warn" aria-label="Delete card" (click)="deleteCard(card.id)">
+            <mat-icon>delete_outline</mat-icon>
+          </button>
+          <button mat-flat-button color="primary" (click)="openEditDialog(card)">
+            <mat-icon>edit</mat-icon>
+            Edit
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </ng-container>
+</div>
+
+<!-- Template for loading state -->
+<ng-template #loading>
+  <div class="state-container">
+    <p>Loading cards...</p>
+  </div>
+</ng-template>
+
+<!-- Template for empty state -->
+<ng-template #emptyState>
+  <div class="state-container empty-state">
+    <mat-icon class="empty-icon">inbox</mat-icon>
+    <h2>No Cards Found</h2>
+    <p>Click "Add New Card" to get started!</p>
+  </div>
+</ng-template>

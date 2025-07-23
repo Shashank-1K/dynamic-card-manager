@@ -1,0 +1,69 @@
+{
+  "cards": [
+    {
+      "id": "101",
+      "title": "Welcome Message",
+      "description": "Welcome to the platform! Start by exploring the dashboard."
+    },
+    {
+      "id": "102",
+      "title": "Profile Incomplete",
+      "description": "Please complete your profile to access all features."
+    },
+    {
+      "id": "103",
+      "title": "Daily Reminder",
+      "description": "Don’t forget to submit your timesheet today."
+    },
+    {
+      "id": "104",
+      "title": "Upcoming Meeting",
+      "description": "Team sync scheduled for 3 PM tomorrow via Zoom."
+    },
+    {
+      "id": "105",
+      "title": "Maintenance Notice",
+      "description": "System maintenance is scheduled for Sunday at midnight."
+    },
+    {
+      "id": "106",
+      "title": "New Feature Released",
+      "description": "Try our new real-time collaboration tool in the editor!"
+    },
+    {
+      "id": "107",
+      "title": "Survey Invitation",
+      "description": "We value your feedback. Complete the survey by Friday."
+    },
+    {
+      "id": "108",
+      "title": "Security Alert",
+      "description": "Unusual login activity detected. Please verify your account."
+    },
+    {
+      "id": "109",
+      "title": "Subscription Expiring",
+      "description": "Your subscription expires in 3 days. Renew to avoid interruption."
+    },
+    {
+      "id": "110",
+      "title": "Welcome, New User!",
+      "description": "Let’s get you started with our quick onboarding guide."
+    },
+    {
+      "id": "111",
+      "title": "Support Ticket Update",
+      "description": "Your ticket #3421 has been updated by our support team."
+    },
+    {
+      "id": "112",
+      "title": "Task Assignment",
+      "description": "You have been assigned a new task: Finalize Q3 Report."
+    },
+    {
+      "id": "113",
+      "title": "Message from Admin",
+      "description": "Please review the updated company policies shared today."
+    }
+  ]
+}

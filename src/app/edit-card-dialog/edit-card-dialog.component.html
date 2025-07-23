@@ -1,0 +1,33 @@
+<div class="dialog-header">
+  <h1 mat-dialog-title>Edit Card Details</h1>
+  <button mat-icon-button class="close-button" (click)="onCancel()" aria-label="Close dialog">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+
+<div mat-dialog-content>
+  <form [formGroup]="form" class="edit-form">
+    <mat-form-field appearance="outline">
+      <mat-label>Card Title</mat-label>
+      <input matInput formControlName="title" cdkFocusInitial>
+      <mat-error *ngIf="form.get('title')?.hasError('required')">
+        Title cannot be empty.
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Card Description</mat-label>
+      <textarea matInput formControlName="description" rows="5"></textarea>
+      <mat-error *ngIf="form.get('description')?.hasError('required')">
+        Description cannot be empty.
+      </mat-error>
+    </mat-form-field>
+  </form>
+</div>
+
+<div mat-dialog-actions align="end">
+  <button mat-stroked-button (click)="onCancel()">Cancel</button>
+  <button mat-flat-button color="primary" (click)="onSave()" [disabled]="!form.valid">
+    Save Changes
+  </button>
+</div>

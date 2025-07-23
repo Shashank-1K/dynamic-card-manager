@@ -1,0 +1,138 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 20px; /* Add gap for wrapped items */
+
+    /* Gradient background */
+
+background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-icon {
+  font-size: 32px;
+  height: 32px;
+  width: 32px;
+  color: var(--primary-color);
+}
+
+.header-container h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-grid-container {
+  padding: 40px;
+
+background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.card-item {
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+
+background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.card-item mat-card-header {
+  padding-bottom: 8px;
+}
+
+.card-item mat-card-content {
+  flex-grow: 1; /* Makes content area expand */
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.card-actions {
+  padding: 8px 16px !important; /* Override default padding */
+}
+
+.card-actions button mat-icon {
+  margin-right: 4px;
+}
+
+/* Empty/Loading State Styles */
+.state-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-light);
+}
+
+.empty-state .empty-icon {
+  font-size: 80px;
+  height: 80px;
+  width: 80px;
+  color: #bdc3c7;
+}
+
+.empty-state h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+  }
+
+  .card-grid-container {
+    padding: 24px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr; /* Stack cards on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+    .header-container h1 {
+        font-size: 20px;
+    }
+}

@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #6a1b9a; /* Deep Purple */
+  --primary-light: #e1bee7;
+  --accent-color: #ff4081;  /* Hot Pink */
+  --text-color: #333;
+  --text-light: #666;
+  --bg-color: #f4f5f7;
+  --surface-color: #ffffff;
+  --border-color: #e0e0e0;
+  --danger-color: #d32f2f;
+  --success-color: #388e3c;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --border-radius: 12px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', "Helvetica Neue", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Override Angular Material button focus outline for a cleaner look */
+.mat-mdc-button-base:focus .mdc-button__ripple,
+.mat-mdc-icon-button-base:focus .mat-mdc-button-ripple {
+    outline: none !important;
+}
