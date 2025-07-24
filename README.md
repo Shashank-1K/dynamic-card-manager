@@ -86,17 +86,26 @@ The `json-server` provides the following RESTful API endpoints based on the `db.
 
 ### 🖥️ Desktop View
 
-### 🖼️ Main UI View
-![Main UI](https://i.ibb.co/b5ppHHS1/Screenshot-62.png)
+#### 🖼️ Main UI View  
+![Main UI](https://i.ibb.co/b5ppHHS1/Screenshot-62.png)  
+*This screenshot displays the main user interface of the application.*
 
-### 🖊️ Editing a Card
-![Edit Modal](https://i.ibb.co/5hPQjzKD/Screenshot-63.png)
+#### 🖊️ Editing a Card  
+![Edit Modal](https://i.ibb.co/5hPQjzKD/Screenshot-63.png)  
+*This modal appears when editing a card, allowing users to update its content.*
 
-### 📋 Dashboard After an Edit
-[![Dashboard after edit](https://i.ibb.co/j9QjjMDC/Screenshot-64.png)](https://i.ibb.co/j9QjjMDC/Screenshot-64.png)
+#### 📋 Dashboard After Editing  
+[![Dashboard after edit](https://i.ibb.co/j9QjjMDC/Screenshot-64.png)](https://i.ibb.co/j9QjjMDC/Screenshot-64.png)  
+*The dashboard view following a successful edit.*
 
-### 🗑️ View of the Dashboard After Delete
-[![Dashboard after delete](https://i.ibb.co/W43174Zt/Screenshot-65.png)](https://i.ibb.co/W43174Zt/Screenshot-65.png)
+#### 🗑️ Dashboard After Deletion  
+[![Dashboard after delete](https://i.ibb.co/W43174Zt/Screenshot-65.png)](https://i.ibb.co/W43174Zt/Screenshot-65.png)  
+*The dashboard view after a card has been deleted.*
+
+#### ➕ Dashboard After Adding a New Card  
+[![Dashboard after adding new card](https://i.ibb.co/wF1ny97Y/Screenshot-66.png)](https://i.ibb.co/wF1ny97Y/Screenshot-66.png)  
+*The dashboard view after a new card has been added.*
+
 
 ---
 
