@@ -103,7 +103,7 @@ The `json-server` provides the following RESTful API endpoints based on the `db.
 *The dashboard view after a card has been deleted.*
 
 #### ➕ Dashboard After Adding a New Card  
-[![Dashboard after adding new card](https://i.ibb.co/wF1ny97Y/Screenshot-66.png)  
+![Dashboard after adding new card](https://i.ibb.co/wF1ny97Y/Screenshot-66.png)  
 *The dashboard view after a new card has been added.*
 
 
